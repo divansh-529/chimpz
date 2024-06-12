@@ -1,0 +1,246 @@
+@import url(/assets/css/root.css);
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.card1 {
+    padding: 32px 8px 32px 8px;
+    max-width: 631px;
+}
+
+
+
+.pl8 {
+    padding-left: 8px;
+}
+
+.ape {
+    color: var(--white);
+    font-size: var(--fs16);
+    font-family: var(--roboto);
+    text-align: left;
+}
+
+.col-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.chimpz {
+    color: var(--white);
+    font-family: var(--exo);
+    font-size: var(--fs64);
+    font-weight: 700;
+    line-height: var(--lh76);
+    text-align: left;
+}
+
+.dedicated {
+    font-family: var(--fira-sans);
+    font-size: var(--fs16);
+    font-weight: 400;
+    line-height: var(--lh24);
+    text-align: left;
+    color: var(--white);
+    max-width: 631px;
+}
+
+
+.chi2 {
+    color: var(--green);
+}
+
+.bg-img {
+    background-image: url(/assets/images/jungle-background-forest-nature-scene-futuristic-generative-ai\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.btn {
+    width: 144px;
+    height: 51px;
+    border-radius: 100px;
+    background: white;
+    border: 0px;
+    font-family: Dela Gothic One;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.17px;
+    transition: all .3s;
+    font-family: var(--dela-ghotic-one);
+    font-size: var(--fs16);
+    font-weight: 400;
+    line-height: var(--lh24);
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #FFC20A;
+    -webkit-box-shadow: 0px 0px 37px 13px rgba(255, 194, 10, 0.9);
+    -moz-box-shadow: 0px 0px 37px 13px rgba(255, 194, 10, 0.9);
+    box-shadow: 0px 0px 37px 13px rgba(255, 194, 10, 0.9);
+    color: white;
+}
+
+.ml24 {
+    margin-left: 24px;
+}
+
+.gap-46 {
+    gap: 46px;
+}
+
+.gap-8 {
+    gap: 8px;
+    ;
+}
+
+.lable-bars {
+    display: none;
+}
+
+.bar {
+    width: 35px;
+    height: 5px;
+    margin-bottom: 5px;
+    background: white;
+}
+
+.a1 {
+    color: var(--color-gray-text);
+    font-family: var(--fira-sans);
+    font-size: var(--fs16);
+    line-height: var(--lh24);
+    display: flex;
+    align-items: center;
+
+}
+
+.a1:hover {
+    color: white;
+    text-shadow: rgba(252, 252, 252, 0.9) 0px 0px 20px;
+}
+
+.ram {
+    flex-grow: 1;
+}
+
+@media (max-width:991.9px) {
+    .lable-bars {
+        display: block;
+        z-index: 3;
+    }
+
+    .ram {
+        flex-grow: 0;
+    }
+
+    .box-1 {
+        padding-top: 55px;
+        flex-direction: column;
+        top: -100%;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        position: fixed;
+        transition: all .7s linear;
+        background-color: rgb(87, 17, 17);
+    }
+
+    .list {
+
+        flex-direction: column !important;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15px;
+        align-items: center;
+    }
+
+    .ml60 {
+        margin-left: 0;
+    }
+
+    .ml24 {
+        margin-left: 0;
+    }
+
+    .svg {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gb {
+        margin-bottom: 46px;
+
+
+    }
+
+    .ml4 {
+        margin-left: 4px;
+    }
+
+    input[type="checkbox"]:checked~.box-1 {
+        top: 0%;
+    }
+}
+
+@media (max-width:968px) {
+    .col-12 {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:768px) {
+    .img {
+        max-width: 70%;
+        min-height: 70%;
+    }
+
+}
+
+@media (max-width:480px) {
+
+    .ram {
+        flex-grow: 0;
+    }
+}
+
+header::after {
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(360deg, #030D01 0%, rgba(3, 13, 1, 0) 100%);
+    position: absolute;
+}
+
+header::before {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(180deg, #030D01 0%, rgba(3, 13, 1, 0) 100%);
+    position: absolute;
+}
+.max-w-1140{
+    max-width: 1140px;
+}

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+/* root for colors */
+:root {
+    --color-gray-text: #BCBCBC;
+    --white: white;
+    --green: #3B945E;
+}
+
+/* root for font famely */
+:root {
+    --fira-sans: Fira Sans;
+    --dela-ghotic-one: Dela Gothic One;
+    --exo: Exo 2;
+    --roboto: Roboto;
+}
+
+/* root for font size */
+:root {
+    --fs16: 16px;
+    --fs64: 64px;
+}
+
+/* root for line height */
+:root {
+    --lh24: 24px;
+    --lh76: 76.8px;
+}
+
+
+
+@media (max-width:968px) {
+    :root {
+        --fs16: 13px;
+        --fs64: 50px;
+        --lh76: 59px;
+        --lh24: 18px;
+
+    }
+}
+
+@media (max-width:425px) {
+    :root {
+        --lh76: 38px;
+        --lh24: 12px;
+        --fs16: 8px;
+        --fs64: 32px;
+
+    }
+}
