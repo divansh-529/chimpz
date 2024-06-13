@@ -58,7 +58,7 @@
 }
 
 .bg-img {
-    background-image: url(/assets/images/jungle-background-forest-nature-scene-futuristic-generative-ai\ 1.png);
+    background-image: url(/assets/images/background.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -143,7 +143,7 @@
     }
 
     .box-1 {
-        padding-top: 55px;
+       
         flex-direction: column;
         top: -100%;
         right: 0;
@@ -160,7 +160,7 @@
         flex-direction: column !important;
         display: flex !important;
         align-items: center;
-        justify-content: center;
+        justify-content: center !important;
         margin-bottom: 15px;
         align-items: center;
     }
